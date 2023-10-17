@@ -1,4 +1,5 @@
 package myapp.utilities;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -7,9 +8,10 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 public class MediaUtils {
     /*
-  This method captures sscreenshot of the entire page
+  This method captures screenshot of the entire page
    */
     public static void takeScreenshotOfTheEntirePage() throws IOException {
 //        1. TakeScreenShot class with getScreenShotAs method to capture the screenshot
@@ -23,6 +25,7 @@ public class MediaUtils {
         FileUtils.copyFile(image,new File(path));
 //        FileUtils.copyFile(FILE,FILE PATH); COPY FILE TO THAT FILE PATH
     }
+
     /*
     This method captures screenshot of specific elements
     this method accepts an elements and saves the screenshot of that element in the test-output folder
@@ -51,4 +54,5 @@ public class MediaUtils {
         //        GETTING THE ABSOLUTE PATH OF THE IMAGE PATH THAT IS STRING
         return new File(path).getAbsolutePath();
     }
+
 }

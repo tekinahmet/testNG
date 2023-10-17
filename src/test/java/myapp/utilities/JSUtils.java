@@ -1,7 +1,9 @@
 package myapp.utilities;
 
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+
 
 public class JSUtils {
     /*
@@ -50,7 +52,7 @@ public class JSUtils {
     @param1 WebElement, @param2 String
     type the string in that web element
      */
-    public static void JSsetValueBy(WebElement inputElement, String text){
+    public static void JSsetValueBy(WebElement inputElement,String text){
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
     }
