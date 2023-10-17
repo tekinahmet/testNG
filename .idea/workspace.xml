@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HW04_InvalidEmail_ValidEmail.validEmail">
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -57,17 +58,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_Annotations.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW01_TechproLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
+          <option name="PATTERN" value="myapp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_Annotations" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="myapp.homework" />
+      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW01_TechproLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW02_US100208_Negative_Login.negativeLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.homework" />
+      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW02_US100208_Negative_Login" />
+      <option name="METHOD_NAME" value="negativeLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,17 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_SoftAssertion.hardAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW03_US413123_Bad_Credentials.badCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
+          <option name="PATTERN" value="myapp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_SoftAssertion" />
-      <option name="METHOD_NAME" value="hardAssert" />
+      <option name="PACKAGE_NAME" value="myapp.homework" />
+      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW03_US413123_Bad_Credentials" />
+      <option name="METHOD_NAME" value="badCredentials" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,17 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_SoftAssertion.javaAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW04_InvalidEmail_ValidEmail.invalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
+          <option name="PATTERN" value="myapp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_SoftAssertion" />
-      <option name="METHOD_NAME" value="javaAssert" />
+      <option name="PACKAGE_NAME" value="myapp.homework" />
+      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW04_InvalidEmail_ValidEmail" />
+      <option name="METHOD_NAME" value="invalidEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,35 +129,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_SoftAssertion.softAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW04_InvalidEmail_ValidEmail.validEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
+          <option name="PATTERN" value="myapp.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_SoftAssertion" />
-      <option name="METHOD_NAME" value="softAssertion" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day15_OrangeHRMLogin.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.topics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.topics" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day15_OrangeHRMLogin" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="PACKAGE_NAME" value="myapp.homework" />
+      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW04_InvalidEmail_ValidEmail" />
+      <option name="METHOD_NAME" value="validEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day15_OrangeHRMLogin.loginTest" />
-        <item itemvalue="TestNG.Day13_SoftAssertion.softAssertion" />
-        <item itemvalue="TestNG.Day13_SoftAssertion.javaAssert" />
-        <item itemvalue="TestNG.Day13_SoftAssertion.hardAssert" />
-        <item itemvalue="TestNG.Day13_Annotations.test1" />
+        <item itemvalue="TestNG.HW04_InvalidEmail_ValidEmail.validEmail" />
+        <item itemvalue="TestNG.HW04_InvalidEmail_ValidEmail.invalidEmail" />
+        <item itemvalue="TestNG.HW03_US413123_Bad_Credentials.badCredentials" />
+        <item itemvalue="TestNG.HW02_US100208_Negative_Login.negativeLogin" />
+        <item itemvalue="TestNG.HW01_TechproLoginTest" />
       </list>
     </recent_temporary>
   </component>

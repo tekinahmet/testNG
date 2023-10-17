@@ -15,4 +15,10 @@ public class RentalLoginPage {
     public WebElement password;
     @FindBy(xpath="//button[@type='submit']")
     public WebElement loginButton;
+
+    @FindBy(xpath = "//div[@class='Toastify__toast-body']")
+    public WebElement alert;
+
+    @FindBy(xpath = "//div[@class='invalid-feedback']")
+    public WebElement invalidEmail;
 }
