@@ -22,11 +22,11 @@ public class RentalHomePage {
     public WebElement pickUpPlace;
     @FindBy(xpath = "//input[@name='dropOfLocation']")
     public WebElement dropOffPlace;
-    @FindBy(xpath = "//input[@min='2023-10-17']")
+    @FindBy(xpath = "//input[@name='pickUpDate']")
     public WebElement pickUpDate;
-    @FindBy(xpath = "//input[@type='time']")
+    @FindBy(xpath = "//input[@name='pickUpTime']")
     public WebElement pickUpTime;
-    @FindBy(xpath = "//input[@name='//input[@name='dropOffDate']']")
+    @FindBy(xpath = "//input[@name='dropOffDate']")
     public WebElement dropOffDate;
     @FindBy(xpath = "//input[@name='dropOffTime']")
     public WebElement dropOffTime;

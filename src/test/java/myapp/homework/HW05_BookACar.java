@@ -27,28 +27,27 @@ public class HW05_BookACar {
     public void bookACar(){
 //        go to https://www.bluerentalcars.com/
         Driver.getDriver().get("https://www.bluerentalcars.com/");
+        WaitUtils.waitFor(1);
+
 //        select a car
         RentalHomePage rentalHomePage = new RentalHomePage();
         Select select = new Select(rentalHomePage.selectACar);
-        select.selectByIndex(1);
+        select.selectByIndex(9);
+
 //        select a place to pick up
-        rentalHomePage.pickUpPlace.sendKeys("Oklahoma Seminole");
-        WaitUtils.waitFor(1);
+        rentalHomePage.pickUpPlace.sendKeys("Oklahoma Oklahoma City");
+
 //        select a place to drop off
-        rentalHomePage.dropOffPlace.sendKeys("Oklahoma Coweta");
-        WaitUtils.waitFor(1);
+        rentalHomePage.dropOffPlace.sendKeys("Oklahoma Woodward");
+
 //        select a date to pick up
-        rentalHomePage.pickUpDate.sendKeys("26102023");
-        WaitUtils.waitFor(1);
+
 //        select time to pick up
-        rentalHomePage.pickUpTime.sendKeys("0900AM");
-        WaitUtils.waitFor(1);
+
 //        select a date to drop off
-        rentalHomePage.dropOffDate.sendKeys("05112023");
-        WaitUtils.waitFor(1);
+
 //        select time to drop off
-        rentalHomePage.dropOffTime.sendKeys("1000PM");
-        WaitUtils.waitFor(1);
+
 
     }
 }
