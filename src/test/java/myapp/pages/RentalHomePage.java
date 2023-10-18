@@ -15,7 +15,6 @@ public class RentalHomePage {
     public WebElement loginLink;
     @FindBy(id = "dropdown-basic-button")
     public WebElement userID;
-
     @FindBy(xpath = "//select[@name='car']")
     public WebElement selectACar;
     @FindBy(xpath = "//input[@name='pickUpLocation']")
@@ -32,10 +31,8 @@ public class RentalHomePage {
     public WebElement dropOffTime;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement reservationButton;
-
-
-
-
-
-
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement continueButton;
+    @FindBy(xpath = "//div[@class='Toastify__toast-body']")
+    public WebElement errorMessage;
 }
