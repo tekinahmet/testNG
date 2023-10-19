@@ -42,10 +42,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\pages" />
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\tests\practices" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myapp.pages" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.XYZBankTest.xyzBankTest">
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -80,24 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day16_ExcelTest.userCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.excelautomation.Day16_ExcelTest" />
-      <option name="METHOD_NAME" value="userCreationTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day16_ExcelTest.userCreationWithExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -109,24 +96,6 @@
       <option name="PACKAGE_NAME" value="myapp.tests.excelautomation" />
       <option name="MAIN_CLASS_NAME" value="myapp.tests.excelautomation.Day16_ExcelTest" />
       <option name="METHOD_NAME" value="userCreationWithExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW04_InvalidEmail_ValidEmail.validEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.homework" />
-      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW04_InvalidEmail_ValidEmail" />
-      <option name="METHOD_NAME" value="validEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,13 +121,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XYZBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.tests.practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.tests.practices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
+      <option name="METHOD_NAME" value="xyzBankTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
+        <item itemvalue="TestNG.XYZBankTest" />
         <item itemvalue="TestNG.HW05_BookACar.bookACar" />
         <item itemvalue="TestNG.Day16_DataProvider1" />
         <item itemvalue="TestNG.Day16_ExcelTest.userCreationWithExcel" />
-        <item itemvalue="TestNG.Day16_ExcelTest.userCreationTest" />
-        <item itemvalue="TestNG.HW04_InvalidEmail_ValidEmail.validEmail" />
       </list>
     </recent_temporary>
   </component>
