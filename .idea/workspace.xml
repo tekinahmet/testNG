@@ -50,7 +50,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.XYZBankTest.xyzBankTest">
+  <component name="RunManager" selected="TestNG.TC17_RemoveProductsFromCart.test">
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -68,41 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day16_DataProvider1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.dataprovider.Day16_DataProvider1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day16_ExcelTest.userCreationWithExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.excelautomation.Day16_ExcelTest" />
-      <option name="METHOD_NAME" value="userCreationWithExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HW05_BookACar.bookACar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -114,6 +79,41 @@
       <option name="PACKAGE_NAME" value="myapp.homework" />
       <option name="MAIN_CLASS_NAME" value="myapp.homework.HW05_BookACar" />
       <option name="METHOD_NAME" value="bookACar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC17_RemoveProductsFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC17_RemoveProductsFromCart" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC17_RemoveProductsFromCart.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC17_RemoveProductsFromCart" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC17_RemoveProductsFromCart.test" />
+        <item itemvalue="TestNG.TC17_RemoveProductsFromCart" />
         <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
         <item itemvalue="TestNG.XYZBankTest" />
         <item itemvalue="TestNG.HW05_BookACar.bookACar" />
-        <item itemvalue="TestNG.Day16_DataProvider1" />
-        <item itemvalue="TestNG.Day16_ExcelTest.userCreationWithExcel" />
       </list>
     </recent_temporary>
   </component>

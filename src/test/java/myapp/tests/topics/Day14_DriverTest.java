@@ -15,7 +15,5 @@ public class Day14_DriverTest {
         Assert.assertTrue(title.contains("Amazon"));
 //        closing driver
         Driver.closeDriver();
-
-
     }
 }
