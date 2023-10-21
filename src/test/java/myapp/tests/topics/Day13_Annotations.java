@@ -5,8 +5,6 @@ public class Day13_Annotations {
     @Test : is used to create test cases - same as junit
     @Before and @After annotations : there are 5 before and 5 after annotation
     Hierarchy : suite > test > group > class > method
-	@FindBy(css="")
-	private WebElement webElement;
     @Ignore : ignore / skip a test case
     @Test(enabled = false) : disables the test case
     @Test(priority = 1) : orders / prioritize test cases - by default testNG runs in ascending order - default priority = 0
@@ -51,7 +49,7 @@ public class Day13_Annotations {
     public void afterMethod(){
         System.out.println("after method");
     }
-    @Test(priority = 2)
+    @Test(priority = 2,groups = "minor_regression_group")
     public void test1(){
         System.out.println("test case 1");
     }
@@ -63,7 +61,7 @@ public class Day13_Annotations {
     public void test3(){
         System.out.println("test case 3");
     }
-    @Test(priority = 3)
+    @Test(priority = 3,groups = "minor_regression_group")
     public void test4(){
         System.out.println("test case 4");
     }

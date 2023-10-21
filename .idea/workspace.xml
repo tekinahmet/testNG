@@ -42,15 +42,35 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\pages" />
       <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\src\test\java\myapp\tests\practices" />
-      <recent name="C:\Users\Administrator\Desktop\BATCH 179-180 QA ENG\IdeaProjects\mytestNGproject\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC17_RemoveProductsFromCart.test">
+  <component name="RunManager" selected="TestNG.HW05_BookACar">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_plugin_sample.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_plugin_sample.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_smoketest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -68,7 +88,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW05_BookACar.bookACar" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day17_DataProvider2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.tests.dataprovider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.tests.dataprovider" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.dataprovider.Day17_DataProvider2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW05_BookACar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
@@ -78,24 +115,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="myapp.homework" />
       <option name="MAIN_CLASS_NAME" value="myapp.homework.HW05_BookACar" />
-      <option name="METHOD_NAME" value="bookACar" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC17_RemoveProductsFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC17_RemoveProductsFromCart" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -103,25 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC17_RemoveProductsFromCart.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.myowntests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC17_RemoveProductsFromCart" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XYZBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MedunnaPatient.medunnaPatient" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
@@ -130,25 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="myapp.tests.practices" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XYZBankTest.xyzBankTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.XYZBankTest" />
-      <option name="METHOD_NAME" value="xyzBankTest" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.MedunnaPatient" />
+      <option name="METHOD_NAME" value="medunnaPatient" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC17_RemoveProductsFromCart.test" />
-        <item itemvalue="TestNG.TC17_RemoveProductsFromCart" />
-        <item itemvalue="TestNG.XYZBankTest.xyzBankTest" />
-        <item itemvalue="TestNG.XYZBankTest" />
-        <item itemvalue="TestNG.HW05_BookACar.bookACar" />
+        <item itemvalue="TestNG.MedunnaPatient.medunnaPatient" />
+        <item itemvalue="TestNG.HW05_BookACar" />
+        <item itemvalue="TestNG.Day17_DataProvider2" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_smoketest.xml" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_plugin_sample.xml" />
       </list>
     </recent_temporary>
   </component>

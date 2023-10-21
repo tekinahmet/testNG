@@ -1,5 +1,6 @@
 package myapp.homework;
 
+import com.github.javafaker.Faker;
 import myapp.pages.RentalHomePage;
 import myapp.utilities.Driver;
 import myapp.utilities.WaitUtils;
@@ -11,7 +12,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import javax.xml.crypto.Data;
-
 
 public class HW05_BookACar {
 //        Name:
@@ -37,10 +37,11 @@ public class HW05_BookACar {
         select.selectByIndex(9);
 
 //        select a place to pick up
-        rentalHomePage.pickUpPlace.sendKeys("Oklahoma Oklahoma City");
+        Faker faker = new Faker();
+        rentalHomePage.pickUpPlace.sendKeys(faker.address().city());
 
 //        select a place to drop off
-        rentalHomePage.dropOffPlace.sendKeys("Oklahoma Woodward");
+        rentalHomePage.dropOffPlace.sendKeys(faker.address().city());
 
 //        select a date to pick up
         rentalHomePage.pickUpDate.sendKeys("10122023");
