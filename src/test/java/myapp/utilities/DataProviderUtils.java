@@ -27,6 +27,16 @@ public class DataProviderUtils {
 
     }
 
+    //    Data Provider to get the employee credentials from the EXCEL SHEET
+    @DataProvider
+    public Object[][] dataTablesData(){
+        String excelPath = "./resources/data_sheet.xlsx";//user data is in this excel
+        String sheetName = "user_data";//user data is in this sheet
+        ExcelUtils excelUtils = new ExcelUtils(excelPath,sheetName);
+        Object[][] employeeInfo = excelUtils.getDataArrayWithoutFirstRow();
+        return employeeInfo;
+
+    }
     @DataProvider
     public Object[][] medunnaCredentials() {
 
@@ -44,5 +54,11 @@ public class DataProviderUtils {
 
 
     }
+
+
+
+
+
+
 
 }

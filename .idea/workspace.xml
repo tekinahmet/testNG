@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -50,10 +50,10 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HW05_BookACar">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_plugin_sample.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_plugin_sample.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_listeners.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -61,9 +61,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_smoketest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_smoketest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MedunnaPatient.medunnaPatient" />
-        <item itemvalue="TestNG.HW05_BookACar" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_parallel_setup.xml" />
         <item itemvalue="TestNG.Day17_DataProvider2" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_smoketest.xml" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_plugin_sample.xml" />
+        <item itemvalue="TestNG.HW05_BookACar" />
+        <item itemvalue="TestNG.MedunnaPatient.medunnaPatient" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +160,10 @@
       <updated>1697294954245</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mytestNGproject$HW05_BookACar.ic" NAME="HW05_BookACar Coverage Results" MODIFIED="1697985610819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>myapp.homework.*</FILTER>
+    </SUITE>
   </component>
 </project>

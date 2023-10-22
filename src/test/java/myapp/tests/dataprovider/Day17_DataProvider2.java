@@ -1,10 +1,12 @@
 package myapp.tests.dataprovider;
+
 import myapp.pages.DataTablesPage;
 import myapp.utilities.DataProviderUtils;
 import myapp.utilities.Driver;
 import myapp.utilities.WaitUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 public class Day17_DataProvider2 {
     DataTablesPage dataTablesPage;
     @Test(dataProvider = "dataTablesData",dataProviderClass = DataProviderUtils.class)
@@ -23,6 +25,7 @@ public class Day17_DataProvider2 {
         3. complete your test case with the data that comes from the excel
         NOTE: try using existing code that might help. we will use userCreationWithExcel test method
          */
+
 //        When user go to  https://editor.datatables.net/
         Driver.getDriver().get("https://editor.datatables.net/");
 //        Click on the new button
@@ -67,5 +70,6 @@ public class Day17_DataProvider2 {
         WaitUtils.waitFor(2);
 
         Driver.closeDriver();
+
     }
 }
