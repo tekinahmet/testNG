@@ -50,103 +50,165 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml">
+  <component name="RunManager" selected="TestNG.Day15_US100201_Admin_Login.withReusableMethods">
     <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_listeners.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="Text" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_parallel_setup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_parallel_setup.xml" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_report.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day13_Annotations" type="TestNG" nameIsGenerated="true">
       <module name="mytestNGproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="myapp.tests.topics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="myapp.tests.topics" />
       <option name="MAIN_CLASS_NAME" value="myapp.tests.topics.Day13_Annotations" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day17_DataProvider2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day15_US100201_Admin_Login.withReusableMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myapp.tests.dataprovider.*" />
+          <option name="PATTERN" value="myapp.tests.smoketest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.dataprovider.Day17_DataProvider2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HW05_BookACar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.homework" />
-      <option name="MAIN_CLASS_NAME" value="myapp.homework.HW05_BookACar" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MedunnaPatient.medunnaPatient" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.practices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myapp.tests.practices" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.practices.MedunnaPatient" />
-      <option name="METHOD_NAME" value="medunnaPatient" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="myapp.tests.smoketest" />
+      <option name="MAIN_CLASS_NAME" value="myapp.tests.smoketest.Day15_US100201_Admin_Login" />
+      <option name="METHOD_NAME" value="withReusableMethods" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC1_RegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC1_RegisterUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC1_RegisterUser.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC1_RegisterUser" />
+      <option name="METHOD_NAME" value="accountCreateDeleteTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
+      <item itemvalue="TestNG.TC1_RegisterUser" />
+      <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
         <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_parallel_setup.xml" />
-        <item itemvalue="TestNG.Day17_DataProvider2" />
-        <item itemvalue="TestNG.HW05_BookACar" />
-        <item itemvalue="TestNG.MedunnaPatient.medunnaPatient" />
+        <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
+        <item itemvalue="TestNG.TC1_RegisterUser" />
       </list>
     </recent_temporary>
   </component>

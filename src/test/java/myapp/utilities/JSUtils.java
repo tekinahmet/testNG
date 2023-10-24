@@ -11,57 +11,63 @@ public class JSUtils {
    @param WebElement
    scrolls into that element
     */
-    public static void JSscrollIntoView(WebElement element){
+    public static void JSscrollIntoView(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("arguments[0].scrollIntoView(true);",element);
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
+
     /*
     scroll all the way down
      */
-    public static void JSscrollAllTheWayDown(){
+    public static void JSscrollAllTheWayDown() {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
     }
+
     /*
     scroll all the way up
      */
-    public static void JSscrollAllTheWayUp(){
+    public static void JSscrollAllTheWayUp() {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
     }
+
     /*
     @param WebElement
     clicks on that element
      */
     //    EXPLICITLY WAIT FOR ELEMENT TO BE VISIBLE, SCROLL INTO THE ELEMENT, THEN CLICK BY JS
     public static void JSclickWithTimeout(WebElement element) {
-        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", WaitUtils.waitForVisibility(element,5));
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", WaitUtils.waitForVisibility(element, 5));
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", element);
     }
+
     /*
    @param String id of teh webelement that we want to locate
    locating element using javascript executor
    and returns that WebElement
    Note that this is NOT common and we should use 8 locators that we learned in selenium
     */
-    public WebElement JSlocateElements(String idOfElement){
+    public WebElement JSlocateElements(String idOfElement) {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        return ((WebElement)js.executeScript("return document.getElementById('"+idOfElement+"')"));
+        return ((WebElement) js.executeScript("return document.getElementById('" + idOfElement + "')"));
     }
+
     /*
     @param1 WebElement, @param2 String
     type the string in that web element
      */
-    public static void JSsetValueBy(WebElement inputElement,String text){
+    public static void JSsetValueBy(WebElement inputElement, String text) {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("arguments[0].setAttribute('value','"+text+"')",inputElement);
+        js.executeScript("arguments[0].setAttribute('value','" + text + "')", inputElement);
     }
+
     /*
     param : Id of the the element
      */
-    public static String JSgetValueBy(String idOfElement){
-        JavascriptExecutor js = (JavascriptExecutor)Driver.getDriver();
-        String value=js.executeScript("return document.getElementById('"+idOfElement+"').value").toString();
+    public static String JSgetValueBy(String idOfElement) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        String value = js.executeScript("return document.getElementById('" + idOfElement + "').value").toString();
         System.out.println(value);
         return value;
 //        How you get the value of an input box?
@@ -72,4 +78,27 @@ public class JSUtils {
 //        I have to do this, cause getText in this case does not return teh text in an input
 //        EG: getValueByJS("hotelDates")
     }
+
+    public static void flashElement(WebElement element) {
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) Driver.getDriver();
+        for (int i = 0; i < 10; i++) {
+            jsExecutor.executeScript("arguments[0].style.backgroundColor = 'orange'", element);
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            jsExecutor.executeScript("arguments[0].style.backgroundColor = ''", element);
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 }
+
+
+
+
+
