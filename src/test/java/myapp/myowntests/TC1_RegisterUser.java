@@ -4,10 +4,7 @@ import com.github.javafaker.Faker;
 import myapp.pages.AutomationExerciseHomePage;
 import myapp.pages.AutomationExerciseLoginPage;
 import myapp.pages.AutomationExerciseSignUpPage;
-import myapp.utilities.Driver;
-import myapp.utilities.ListenerUtils;
-import myapp.utilities.MediaUtils;
-import myapp.utilities.WaitUtils;
+import myapp.utilities.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -24,6 +21,10 @@ public class TC1_RegisterUser {
     @Test
     public void accountCreateDeleteTest() throws IOException {
 
+        LoggerUtils.info("Test case begins .. ");
+        ExtentReportUtils.createTestReport("Smoke Test Report","Admin Login Test");
+        ExtentReportUtils.pass("Starting the admin login test...");
+
 //        1. Launch browser
 //        2. Navigate to url 'http://automationexercise.com'
         Driver.getDriver().get("http://automationexercise.com");
@@ -32,6 +33,9 @@ public class TC1_RegisterUser {
         AutomationExerciseHomePage automationExerciseHomePage = new AutomationExerciseHomePage();
         flashElement(automationExerciseHomePage.homePageLink);
         assertTrue(automationExerciseHomePage.homePageLink.isDisplayed());
+
+        MediaUtils.takeScreenshotOfThisElement(automationExerciseHomePage.homePageLink);
+
 
 //        4. Click on 'Signup / Login' button
         flashElement(automationExerciseHomePage.signupLoginButton);
@@ -49,6 +53,8 @@ public class TC1_RegisterUser {
         flashElement(automationExerciseLoginPage.emailInput);
         automationExerciseLoginPage.emailInput.sendKeys(faker.internet().emailAddress());
 
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        7. Click 'Signup' button
         flashElement(automationExerciseLoginPage.signUpButton);
         automationExerciseLoginPage.signUpButton.click();
@@ -58,6 +64,7 @@ public class TC1_RegisterUser {
         AutomationExerciseSignUpPage automationExerciseSignUpPage = new AutomationExerciseSignUpPage();
         flashElement(automationExerciseSignUpPage.verifyAccountInfo);
         assertTrue(automationExerciseSignUpPage.verifyAccountInfo.getText().contains("ENTER ACCOUNT INFORMATION"));
+
 //        9. Fill details: Title, Name, Email, Password, Date of birth
         flashElement(automationExerciseSignUpPage.genderMale);
         automationExerciseSignUpPage.genderMale.click();
@@ -75,6 +82,8 @@ public class TC1_RegisterUser {
         flashElement(automationExerciseSignUpPage.year);
         Select selectYear = new Select(automationExerciseSignUpPage.year);
         selectYear.selectByIndex(5);
+
+        MediaUtils.takeScreenshotOfTheEntirePage();
 
 //        10. Select checkbox 'Sign up for our newsletter!'
         flashElement(automationExerciseSignUpPage.genderMale);
@@ -114,6 +123,8 @@ public class TC1_RegisterUser {
         flashElement(automationExerciseSignUpPage.mobile_number);
         automationExerciseSignUpPage.mobile_number.sendKeys(faker.phoneNumber().cellPhone());
 
+        MediaUtils.takeScreenshotOfTheEntirePage();
+
 //        13. Click 'Create Account button'
 
         flashElement(automationExerciseSignUpPage.createAccount);
@@ -126,20 +137,30 @@ public class TC1_RegisterUser {
 //        15. Click 'Continue' button
         automationExerciseSignUpPage.continueSignUp.click();
         Driver.getDriver().navigate().refresh();
-        WaitUtils.waitFor(3);
+        //WaitUtils.waitFor(5);
         flashElement(automationExerciseSignUpPage.continueSignUp);
         automationExerciseSignUpPage.continueSignUp.click();
 
 //        16. Verify that 'Logged in as username' is visible
-        //flashElement(automationExerciseSignUpPage.verifyLoggedInAsName);
-        String verifiedName = automationExerciseSignUpPage.verifyAccountInfo.getText();
+        flashElement(automationExerciseSignUpPage.verifyLoggedInAsName);
+        String verifiedName = automationExerciseSignUpPage.verifyLoggedInAsName.getText();
         System.out.println(verifiedName);
-
+        Assert.assertTrue(automationExerciseSignUpPage.verifyLoggedInAsName.getText().contains(verifiedName));
 //        17. Click 'Delete Account' button
+        flashElement(automationExerciseSignUpPage.deleteButton);
+        automationExerciseSignUpPage.deleteButton.click();
 //        18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
+        flashElement(automationExerciseSignUpPage.accountDeleted);
+        Assert.assertTrue(automationExerciseSignUpPage.accountDeleted.isDisplayed());
+
+        MediaUtils.takeScreenshotOfTheEntirePage();
 
 
         Driver.getDriver().close();
+
+        ExtentReportUtils.pass("Driver is closed.... Test is completed successfully...");
+        ExtentReportUtils.flush();
+        LoggerUtils.info("Test completed...");
 
     }
 

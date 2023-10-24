@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -50,7 +51,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day15_US100201_Admin_Login.withReusableMethods">
+  <component name="RunManager" selected="TestNG.TC1_RegisterUser.accountCreateDeleteTest">
     <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <shortenClasspath name="NONE" />
@@ -149,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC1_RegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC18_ViewCategoryProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +159,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="myapp.myowntests" />
-      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC1_RegisterUser" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC18_ViewCategoryProducts" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -196,19 +198,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.TC18_ViewCategoryProducts.test" />
       <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
       <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
       <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
-      <item itemvalue="TestNG.TC1_RegisterUser" />
       <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
         <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
-        <item itemvalue="TestNG.TC1_RegisterUser" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
+        <item itemvalue="TestNG.TC18_ViewCategoryProducts.test" />
+        <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
       </list>
     </recent_temporary>
   </component>

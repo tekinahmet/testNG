@@ -57,7 +57,12 @@ public class AutomationExerciseSignUpPage {
     @FindBy(xpath = "//a[.='Continue']")
     public WebElement continueSignUp;
 
-    @FindBy(xpath = "//b[.='Emery Ward']")
+    @FindBy(xpath = "//b")
     public WebElement verifyLoggedInAsName;
+
+    @FindBy(xpath = " //a[@href='/delete_account']")
+    public WebElement deleteButton;
+    @FindBy(xpath = "//h2")
+    public WebElement accountDeleted;
 
 }
