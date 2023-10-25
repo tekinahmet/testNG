@@ -82,7 +82,7 @@ public class JSUtils {
     public static void flashElement(WebElement element) {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) Driver.getDriver();
         for (int i = 0; i < 10; i++) {
-            jsExecutor.executeScript("arguments[0].style.backgroundColor = 'orange'", element);
+            jsExecutor.executeScript("arguments[0].style.backgroundColor = 'blue'", element);
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {

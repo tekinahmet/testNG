@@ -28,7 +28,7 @@ public class ExtentReportUtils {
         extentReports.setSystemInfo("Application Name","Apple M1 Unit");
         extentReports.setSystemInfo("Test Environment","Regression");
         extentReports.setSystemInfo("Browser","Chrome");
-        extentReports.setSystemInfo("Team Name","Eagles");
+        extentReports.setSystemInfo("Team Name","Lions");
         extentReports.setSystemInfo("SQA","Seren");
         extentReports.setSystemInfo("Feature Number","FE1056");
 //        ***********DOCUMENT INFORMATION************************

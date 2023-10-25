@@ -18,6 +18,14 @@ public class AutomationExerciseProductsPage {
     public WebElement menSubCategory;
     @FindBy(xpath = "//h2[.='Men - Jeans Products'] ")
     public WebElement menProductTitle;
-
-
+    @FindBy(xpath = "//h2[.='Brands']")
+    public WebElement brands;
+    @FindBy(xpath = "//a[@href='/brand_products/H&M']")
+    public WebElement clickAnyProduct;
+    @FindBy(xpath = "//h2[.='Brand - H&M Products']")
+    public WebElement verifyBrand;
+    @FindBy(xpath = "//a[@href='/brand_products/Babyhug']")
+    public WebElement anotherBrand;
+    @FindBy(xpath = "//h2[.='Brand - Babyhug Products']")
+    public WebElement verifyBabyHug;
 }

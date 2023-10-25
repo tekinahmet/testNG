@@ -51,26 +51,7 @@
       <recent name="myapp.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC1_RegisterUser.accountCreateDeleteTest">
-    <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG_listeners.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="Text" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TC19_ViewCartBrandProducts.test">
     <configuration name="C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <shortenClasspath name="NONE" />
@@ -122,34 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day15_US100201_Admin_Login.withReusableMethods" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytestNGproject" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myapp.tests.smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="myapp.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="myapp.tests.smoketest.Day15_US100201_Admin_Login" />
-      <option name="METHOD_NAME" value="withReusableMethods" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TC18_ViewCategoryProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mytestNGproject" />
       <extension name="coverage">
@@ -160,6 +113,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="myapp.myowntests" />
       <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC18_ViewCategoryProducts" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC19_ViewCartBrandProducts.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.TC19_ViewCartBrandProducts" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -196,21 +167,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.accountCreateDeleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytestNGproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myapp.myowntests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myapp.myowntests" />
+      <option name="MAIN_CLASS_NAME" value="myapp.myowntests.test" />
+      <option name="METHOD_NAME" value="accountCreateDeleteTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.Day13_Annotations" />
+      <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
+      <item itemvalue="TestNG.test.accountCreateDeleteTest" />
       <item itemvalue="TestNG.TC18_ViewCategoryProducts.test" />
-      <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
       <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
-      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
       <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
+        <item itemvalue="TestNG.TC19_ViewCartBrandProducts.test" />
         <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_report.xml" />
+        <item itemvalue="TestNG.test.accountCreateDeleteTest" />
+        <item itemvalue="TestNG.TC1_RegisterUser.accountCreateDeleteTest" />
         <item itemvalue="TestNG.TC18_ViewCategoryProducts.test" />
-        <item itemvalue="TestNG.Day15_US100201_Admin_Login.withReusableMethods" />
-        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/BATCH 179-180 QA ENG/IdeaProjects/mytestNGproject/testNG_listeners.xml" />
       </list>
     </recent_temporary>
   </component>

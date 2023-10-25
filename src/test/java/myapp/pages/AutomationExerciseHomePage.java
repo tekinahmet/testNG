@@ -17,17 +17,14 @@ public class AutomationExerciseHomePage {
 
     @FindBy(xpath = "//a[.=' Home']")
     public WebElement homePageLink;
-
     @FindBy(xpath = "//a[.=' Signup / Login']")
     public WebElement signupLoginButton;
-
     @FindBy(xpath = "//h2[.='Category']")
     public WebElement category;
-
     @FindBy(xpath = "//a[@href='#Women']")
     public WebElement womenCategory;
-
     @FindBy(xpath = "//a[@href='/category_products/1']")
     public WebElement dress;
-
+    @FindBy(xpath = "//a[@href='/products']")
+    public WebElement products;
 }
