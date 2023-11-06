@@ -137,8 +137,9 @@ Then
         }
 //        Open 4 more accounts
 
-//        Click on "Customers" button
 
+//        Click on "Customers" button
+        xyzBankManagerPage.customersButton.click();
 //        Count table row numbers
 
 //        Assert that you created 5 customers
